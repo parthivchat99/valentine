@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('vday.avif'); /* Replace 'background.jpg' with the path to your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  color: #333;
+  animation: floatingText 5s ease-in-out infinite; /* Apply animation to h1 */
+}
+
+.options {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+#response {
+  margin-top: 20px;
+}
+
+@keyframes floatingText {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
