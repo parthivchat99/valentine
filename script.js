@@ -40,6 +40,6 @@ yesButton.addEventListener('click', function() {
     buttonsContainer.style.display = 'none';
 
     const gifContainer = document.createElement('div');
-  gifContainer.innerHTML = '<img src="milk-and-mocha.gif">';
+    gifContainer.innerHTML = '<img src="milk-and-mocha.gif" style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">';
   document.body.appendChild(gifContainer);
 });
